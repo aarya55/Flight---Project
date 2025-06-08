@@ -3,8 +3,8 @@ This is a Online Flight book website built using React. It showcases full detail
 
 📦 Installation & Usage
 Clone the repo:
-git clone https://github.com/aarya55/portfolio.git
-cd portfolio
+git clone https://github.com/aarya55/flight.git
+cd flight
 npm install
 npm start
 
