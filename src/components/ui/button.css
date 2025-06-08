@@ -1,0 +1,37 @@
+.custom-button,
+.custom-button-outline {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .custom-button,
+  .custom-button-outline {
+    width: auto;
+    font-size: 16px;
+  }
+}
+
+.custom-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: #1d4ed8;
+}
+
+.custom-button-outline {
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+}
+
+.custom-button-outline:hover {
+  background-color: #f3f4f6;
+}
